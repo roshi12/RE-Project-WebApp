@@ -29,10 +29,10 @@ The application follows a **Client-Server Architecture** with a RESTful API.
 | **Validation** | Pydantic | Data validation and settings management. |
 
 ### 2. High-Level Design
-```mermaid
+
 [Browser / Client]  <-- JSON / HTTP -->  [FastAPI Backend]  <-- SQL -->  [SQLite Database]
 (React + Vite)                           (Python 3.10+)                  (pos.db)
-```
+
 
 ---
 
